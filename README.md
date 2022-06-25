@@ -1,17 +1,23 @@
-## Concept
+### GESTIONS DE MUSIQUES AVEC PLAYLISTS ET FAVORIS 
 
-This template is meant to serve as a foundation for every P2/P3 following the React-Express-MySQL stack, as learned in Wild Code School.
-It's pre-configured with a set of tools which'll help students produce industry-quality and easier-to-maintain code, while staying as simple as possible to use.
+mise en place d'un serveur node.js avec express,
+  • ajout des différentes routes dans un dossier router 
+  • ajout des controller dans un dossier controller
+  • ajout des managers dans un dossier manager
+  • possibilité aux utilisateurs de se logger
+  
+mise en place d'une base de données avec mysql
 
+  • avec table de jointure
+  
+mise en place d'une application front avec react
+
+  • mise en place de routes avec react router dom
+  • utilisation de axios pour les requetes aux back
+  • utilisations de bootstrap pour un formulaire de connexion
+  • utilisations useEffect, useState, useParams ... 
+  
 ## Setup & Use
-
-### Project Initialization
-
-- In VSCode, install plugins **Prettier - Code formatter** and **ESLint** and configure them
-- Clone this repo, enter it
-- Run command `npm run setup`
-- _NB: To launch the backend server, you'll need an environment file with database credentials. You'll find a template one in `backend/.env.sample`_
-
 ### Available Commands
 
 - `setup` : Initialization of frontend and backend, as well as all toolings
@@ -20,8 +26,6 @@ It's pre-configured with a set of tools which'll help students produce industry-
 - `dev-back` : Starts the Express backend server
 - `lint` : Runs validation tools, and refuses unclean code (will be executed on every _commit_)
 - `fix` : Fixes linter errors (run it if `lint` growls on your code !)
-
-## FAQ
 
 ### Tools
 
